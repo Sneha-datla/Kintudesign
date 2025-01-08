@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "creative_barriers",
+  "info": {
+    "singularName": "creative-barrier",
+    "pluralName": "creative-barriers",
+    "displayName": "CreativeBarrier",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Description": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    }
+  }
+}

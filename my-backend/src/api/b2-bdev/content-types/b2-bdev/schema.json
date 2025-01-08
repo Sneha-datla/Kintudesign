@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "b2_bdevs",
+  "info": {
+    "singularName": "b2-bdev",
+    "pluralName": "b2-bdevs",
+    "displayName": "B2Bdev"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "bannertitle": {
+      "type": "string"
+    },
+    "bannerdescription": {
+      "type": "text"
+    },
+    "Jobtitle": {
+      "type": "text"
+    },
+    "JobOffer": {
+      "type": "blocks"
+    },
+    "JobResponsibilities": {
+      "type": "blocks"
+    },
+    "JobRequirements": {
+      "type": "blocks"
+    },
+    "Sectiondescription": {
+      "type": "text"
+    },
+    "Sectiontitle": {
+      "type": "text"
+    }
+  }
+}

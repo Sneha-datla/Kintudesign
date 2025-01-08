@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "webdevelopments",
+  "info": {
+    "singularName": "webdevelopment",
+    "pluralName": "webdevelopments",
+    "displayName": "Webdevelopment",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "bannertitle": {
+      "type": "string"
+    },
+    "bannerdescription": {
+      "type": "text"
+    },
+    "Jobtitle": {
+      "type": "string"
+    },
+    "Sectiontitle": {
+      "type": "text"
+    },
+    "Sectiondescription": {
+      "type": "text"
+    },
+    "JobOffer": {
+      "type": "blocks"
+    },
+    "JobResponsibilities": {
+      "type": "blocks"
+    },
+    "JobRequirements": {
+      "type": "blocks"
+    }
+  }
+}

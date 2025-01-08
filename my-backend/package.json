@@ -1,0 +1,45 @@
+{
+  "name": "my-backend",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A Strapi application",
+  "scripts": {
+    "build": "strapi build",
+    "deploy": "strapi deploy",
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^43.2.0",
+    "@ckeditor/strapi-plugin-ckeditor": "^1.0.2",
+    "@strapi/icons": "^1.13.0",
+    "@strapi/plugin-cloud": "5.0.6",
+    "@strapi/plugin-users-permissions": "5.0.6",
+    "@strapi/provider-email-nodemailer": "^5.1.0",
+    "@strapi/provider-email-sendgrid": "^5.0.6",
+    "@strapi/strapi": "^5.0.6",
+    "@types/nodemailer": "^6.4.16",
+    "axios": "^1.7.7",
+    "nodemailer": "^6.9.15",
+    "pg": "8.8.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.0.0",
+    "styled-components": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.15.0",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "typescript": "^5"
+  },
+  "engines": {
+    "node": ">=18.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "strapi": {
+    "uuid": "c3bf6e1c-a2f3-4e2b-a350-f35810297110"
+  }
+}
