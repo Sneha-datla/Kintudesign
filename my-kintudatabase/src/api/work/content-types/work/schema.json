@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "works",
+  "info": {
+    "singularName": "work",
+    "pluralName": "works",
+    "displayName": "Work"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "value": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "startuphub": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::startuphub.startuphub",
+      "inversedBy": "works"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tech_expertises",
+  "info": {
+    "singularName": "tech-expertise",
+    "pluralName": "tech-expertises",
+    "displayName": "TechExpertise",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tittle": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "technolgies": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::technolgy.technolgy",
+      "mappedBy": "tech_expertise"
+    }
+  }
+}
